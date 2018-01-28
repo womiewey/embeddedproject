@@ -1,0 +1,23 @@
+page-login {
+    .logo{
+        text-align : center;
+        font-family: "Lucida Sans", sans-serif;
+        font-size: 20px;
+    }
+    .logo img{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .credentials{
+        padding-left: 1px;
+        padding-right: 1px;
+        margin: auto;
+        width: 95%;
+        text-align: center;
+    }
+
+}
