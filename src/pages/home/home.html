@@ -1,14 +1,24 @@
 <ion-header>
   <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>
-      Ionic Blank
+        Latest eye scans
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<!--body -->
+<ion-content>
+    <ion-card *ngFor="let card of cards" (click)="status()">
+          <ion-card-content>
+              <img src = "assets/imgs/sampleLogo.png" id ="eyemg">
+              <div class="card-title">Romie Santiago</div>
+              <div class="card-subtitle">Antipolo City</div>
+              <div class="card-subtitle">Press to see patient's status</div>
+          </ion-card-content>
+    </ion-card>
 </ion-content>

@@ -14,3 +14,32 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.icon img{
+    border-radius: 50%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+} 
+.icon{
+    padding-top : 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size-adjust: 30px;
+    text-align: center 
+}
+p{
+    text-align: center;
+}
+.profilebutton{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+}
+.buttons{
+    padding-top:50px;
+}
